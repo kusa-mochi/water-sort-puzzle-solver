@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using app.Models;
 
@@ -77,7 +77,7 @@ namespace app
             Console.WriteLine("result:");
             foreach (RootSelection selection in result)
             {
-                Console.WriteLine($"{selection.From} to {selection.To}");
+                Console.WriteLine($"{selection.From + 1} to {selection.To + 1}");
             }
         }
     }
